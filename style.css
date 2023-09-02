@@ -1,0 +1,37 @@
+    body {
+      background: #193549;
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 100px;
+    }
+
+    .grid-container {
+        display: grid;
+        place-items: center;
+    }
+
+    :root {
+      --blur: 10px;
+    }
+    
+    img {
+      filter: blur(var(--blur));
+    }
+
+    :root {
+      --spacing: 10px;
+    }
+    
+    img {
+      position: relative;
+      top: var(--spacing);
+    }
